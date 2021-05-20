@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         window.dataLayer.push({
             'event': 'form-confirmation',
-            '100+_funcionarios': ['Mais de 1000', 'De 501 a 1000', 'De 201 a 500', 'De 101 a 200'].includes(numberOfEmployees);
+            '100+_funcionarios': ['Mais de 1000', 'De 501 a 1000', 'De 201 a 500', 'De 101 a 200'].includes(numberOfEmployees)
         })
     })
 });
