@@ -3,6 +3,7 @@
 var formToGtmSearch = setInterval(function () {
     var form = document.querySelector('form[action^="https://www.rdstation.com.br/api/"]');
     if (form) {
+        console.log("FormToGTM attached to form")
         clearInterval(formToGtmSearch);
         // ID DO CAMPO "NUMERO DE FUNCIONARIOS"
         var NUMBER_EMPLOYEES_FIELD = 111153;
@@ -27,5 +28,3 @@ var formToGtmSearch = setInterval(function () {
         });
     }
 }, 500);
-
-setTimeout();
